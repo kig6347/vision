@@ -8,7 +8,6 @@ def mouse_callback(event, x, y, flags, param):
         print("키눌림")
     cv2.imshow('image', img)
 
-
 img = np.zeros((512,512,3), np.uint8)
 # 마우스 이벤트 콜백 받을 윈도우 창
 cv2.namedWindow('image')
